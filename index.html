@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pendaftaran Mahasiswa Baru</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Pendaftaran Mahasiswa Baru</h1>
+<p>Silakan isi formulir berikut</p>
+
+<form id="formPendaftaran">
+
+<label>Nama Lengkap</label>
+<input type="text" placeholder="Masukkan nama lengkap" required>
+
+<label>Tempat Lahir</label>
+<input type="text" placeholder="Tempat lahir" required>
+
+<label>Tanggal Lahir</label>
+<input type="date" required>
+
+<label>Jenis Kelamin</label>
+<select required>
+<option value="">Pilih</option>
+<option>Laki-laki</option>
+<option>Perempuan</option>
+</select>
+
+<label>No WhatsApp</label>
+<input type="tel" placeholder="08xxxxxxxxxx" required>
+
+<label>Email</label>
+<input type="email" placeholder="email@gmail.com" required>
+
+<label>Program Studi</label>
+<select required>
+<option value="">Pilih Program Studi</option>
+<option>Administrasi Negara</option>
+<option>Manajemen</option>
+<option>Akuntansi</option>
+<option>Teknik Informatika</option>
+</select>
+
+<label>Alamat</label>
+<textarea placeholder="Masukkan alamat lengkap"></textarea>
+
+<button type="submit">Daftar Sekarang</button>
+
+</form>
+
+<p id="pesan"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
